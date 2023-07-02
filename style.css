@@ -3,5 +3,11 @@
 }
 
 h1 {
-	color: blue;
+	color: white;
+}
+
+body {
+	text-align: center;
+	background: #FFC8C8;
+	font-family: 'Nunito', sans-serif;
 }
