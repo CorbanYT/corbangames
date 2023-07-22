@@ -67,3 +67,21 @@ a:hover {
 	color: #e23e57;
 	font-size: 40px;
 }
+
+.quest a {
+  color: #32557f;
+  text-decoration: none;
+  background:  no-repeat 0 100%;
+  background-image: linear-gradient(currentColor, currentColor);
+  background-size: 0% 2px;
+  transition: background-size .3s ease;
+}
+
+.quest a:hover, a:focus {
+  background-size: 100% 2px;
+  text-align: center;
+}
+
+div {
+	text-align: center;
+}
